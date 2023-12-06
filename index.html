@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <title>Qinghua Tao's Homepage</title>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <!--<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.7.5-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.7.5/css/bulma.min.css" />
+  <link href='css/style.css?_t=20200916' rel='stylesheet' type='text/css'>
+  <script defer src="font-awesome-5.9.0/js/brands.min.js"></script>
+  <script defer src="font-awesome-5.9.0/js/fontawesome.min.js"></script>
+    <style>
+      .red {
+        color: #ff0000;
+/*        color: #D70000;*/
+        font-style: normal;
+      }
+
+      .pink {
+        color:  #FF1493;
+/*        color: #D70000;*/
+        font-style: normal;
+      }
+       
+
+     
+
+      #intro {
+       margin-top: 0.2em !important;
+      }
+      
+      .content h3 {
+       margin-bottom: 1em!important;
+       margin-top: 2.5em!important;
+      }
+
+      .content figure {
+       width: 90%;
+       display: flex;
+       align-items: center;
+       overflow: hidden;
+       margin-left: auto!important;
+       margin-right: auto!important;
+      }
+      
+      .columns:not(:last-child) {
+       margin-bottom: 1.75rem!important;
+      }
+
+      #sidebar {
+        width: 80%;
+      }
+
+      /* #sidebar .menu-list a.is-active {
+        background-color: #9dd5d8;
+      } */
+
+      @media screen and (min-width: 769px), print {
+        .column.is-2_5, .column.is-2-tablet {
+          flex: none;
+          width: 20%;
+        }
+      }
+
+      .next-element-vertical-align-middle+span{
+        vertical-align: middle;
+      }
+
+      .next-element-vertical-align-text-top+span{
+        vertical-align: text-top;
+      }
+
+      .vertical-align-text{
+        vertical-align: text-bottom;
+      }
+
+      .partial-visible li:nth-child(n+20){
+        display: none;
+      }
+
+      .partial-visible .show-more:nth-child(n+21){
+        display: block!important;
+      }
+      .news-list:not(.partial-visible) .show-more{
+        display: block!important;
+      }
+</style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-2_5">
+          <div class="sticky">
+            <figure class="image" style="width: 12rem;max-width: 100%;">
+              <img class="is-rounded" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" id="avatar">
+            </figure>
+            <div class="content">
+              <h3 style="margin-top: 1em">Qinghua Tao 陶清华</h3>
+              <h6>Department of Electrical Engineering (ESAT)</h6>
+              <h6>KU Leuven, Belgium</h6>
+              <!-- <h6>3001 Heverlee, Belgium</h6> -->
+            </div>
+            <!-- details -->
+            <div class="details">
+              <h3>Email:</h3>
+              <p><a href="qtao@esat.kuleuven.be">qtao[at]esat[dot]kuleuven[dot]be</a></p>
+            </div>
+            <!-- social network icons -->
+            <div class="social">
+              <!-- <a href="https://github.com/yyuanad" target="_blank">
+                <span class="fab fa-github fa-2x" style="display:inline; text-decoration: none"></span> -->
+              </a>
+              <a href="https://scholar.google.com/citations?user=_dZHZD8AAAAJ&hl=en" target="_blank">
+                <span class="fab fa-google fa-2x" style="display:inline; text-decoration: none"></span>
+              </a>
+              <!-- <a href="https://www.linkedin.com/in/yuan-yuan-96451747/" target="_blank">
+                <span class="fab fa-linkedin fa-2x" style="display:inline; text-decoration: none"></span>
+              </a>
+              <a href="https://twitter.com/YuanYuan_MIT" target="_blank">
+                <span class="fab fa-twitter fa-2x" style="display:inline; text-decoration: none"></span>
+              </a> -->
+            </div>
+
+
+            <div id="sidebar" class="menu sticky is-hidden-mobile">
+              <p class="menu-label"><b>Quick Links</b></p>
+              <ul class="menu-list">
+                <li><a href="#intro">About Me</a></li>
+                <li><a href="#research">Research Interest</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#miscellaneous">Miscellaneous</a></li>
+              </ul>
+              <div class="column" style="width: 40%">
+                <script type='text/javascript' id='clstr_globe' src='//cdn.clustrmaps.com/globe.js?d=VjnfOejvIIrpggl9NSOiRcw0OJHJ0QGzEhq2kCXwP94' async></script>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="column right-panel">
+          <div class="content">
+
+
+            <!--About Me-->
+            <h3 id="intro">About Me</h3>
+            <p>I am a postdoctoral research associate at <a href="https://www.esat.kuleuven.be/" target="_blank">Department of Electrical Engineering (ESAT-STADIUS)</a>
+              of <a href="https://www.kuleuven.be/english/kuleuven/index.html" target="_blank">KU Leuven</a>. I have been fortunate to work with Prof. <a href="https://www.esat.kuleuven.be/sista/members/suykens.html" target="_blank">Johan A.K. Suykens</a> for my post-doctoral research and  my visit during PhD back in 2018.
+              I received my Ph.D. degree from <a href="https://www.tsinghua.edu.cn/en/info/1399/9884.htm" target="_blank">Department of Automation</a>, <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University</a>, Beijing China, in 2020, and prior in 2014 I obtained my Bachelor degree of Control Science and Technology, 
+              from <a href="https://www.kuleuven.be/english/kuleuven/index.html" target="_blank">Department of Information Science and Technology, Central South University</a>, Changsha China, with Cum Laude (GPA Rank: 1/63).  
+              I am grateful to have <a href="https://www.au.tsinghua.edu.cn/index.htm" target="_blank">Prof. Shuning Wang (王书宁)</a> as my PhD supervisor,
+              and to be inspired from working with <a href="https://scholar.google.com/citations?user=pgHpCMEAAAAJ&hl=en" target="_blank">Prof. Li Li (李立)</a>, 
+              <a href="https://scholar.google.be/citations?user=DR-gBcEAAAAJ&hl=en" target="_blank">Prof. Xialin Huang (黄晓霖)</a>, 
+              <a href="https://scholar.google.com/citations?user=bsD6IowAAAAJ&hl=en" target="_blank">Prof. Jun Xu (许鋆)</a>, 
+              and  <a href="https://homes.esat.kuleuven.be/~ppatrino/" target="_blank">Prof. Panos Patrinos.</a>
+            </p>
+
+            <h3 id="research">Research Interest</h3>
+            <p>
+              I am interested in exploring neural networks and general machine learning approaches towards enhanced modelling, better interpretation, and  applications. 
+              In the era of big data, such approaches, including the long existing classical ones, are still fundamental towards understanding and developing deep learning and generic machine learning methods. 
+              However, briding the gap between  interpretable techniques with 'black-box' deep architectures is not easy, theoretically nor empirically.<br> 
+              My research work starts from piecewise linear neural networks delving from shallow to deep architectures, especially on novel piecewise linear function representation models with effective optimization algorithms and interpretability in analysis and applications.
+              <!-- (<a href="link" target="_blank">publisher</a>)  --> 
+              [e.g., <a href="https://www.nature.com/articles/s43586-022-00125-7" target="_blank">Nature Reviews Methods Primers</a>, 
+              <a href="https://ieeexplore.ieee.org/abstract/document/9444112" target="_blank">IEEE T-NNLS</a>,
+              <a href="https://ieeexplore.ieee.org/abstract/document/9698141" target="_blank">IEEE T-ITS</a>, 
+              <a href="https://arxiv.org/pdf/2211.10882.pdf" target="_blank">Automatica</a>, 
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417420309404" target="_blank">Expert Systems with Applications</a>,
+              <a href="https://ieeexplore.ieee.org/abstract/document/8619653?casa_token=uvAVgoetnSEAAAAA:PcI1NhXxjUFihLNED-PZHOEemdiX8k6DsWfqsC3PolZzffUbmgydydX7K0pChLNihuX8FPpwaF8" target="_blank">IEEE CDC</a>] 
+              I also did some work previously on algorithms for black-box optimization and penalty functions with piecewise linearity for  model sparsity
+              [e.g., <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168416300032" target="_blank">Signal Processing</a>,
+              <a href="https://link.springer.com/article/10.1007/s10898-017-0541-x" target="_blank">Journal of Global Optimization</a>]
+              Currently, my research line has been spanned to the areas with  kernel methods which exert better interpretability and analytical benefits than deep neural networks, but lack flexibility for large-scale and complicated tasks; 
+              my relevant recent work mainly leverage  the techniques from Lagrangian duality and conjugate feature duality w.r.t. tensorization, deep kernel machines, and asymmetric kernel-based learning. [e.g., <a href="https://arxiv.org/pdf/2306.07040.pdf" target="_blank">arXiv:2306.07040</a>, 
+              <a href="https://arxiv.org/pdf/2305.19798.pdf" target="_blank">NeurIPS</a>,
+              <a href="https://arxiv.org/pdf/2302.11220.pdf" target="_blank">Neural Networks</a>,
+              <a href="https://ieeexplore.ieee.org/document/10094580" target="_blank">ICASSP</a>,
+              <a href="https://arxiv.org/pdf/2308.16056.pdf" target="_blank">arXiv:2308.16056</a>,
+              <a href="https://arxiv.org/pdf/2207.11559.pdf" target="_blank">arXiv:2207.11559</a>] 
+              Both piecewise linearity and kernel methods are classical tools for flexibility, interpretability, and utility in various tasks.  It is being and would longstanding be  interesting directions that aim to bring new perspectives and even synergies bridging to deep neural networks.
+              I have also been collaborating on some interesting topics about optimization towards the generalization and robustness for deep neural networks,  tensor-based methods for kernel machines,  etc.
+              [e.g., <a href="https://openreview.net/pdf?id=VcuScWOJfl" target="_blank">NeurIPS Workshop</a>,
+              <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/5fa29a2f163ce2020769eca8956e2d77-Paper-Conference.pdf" target="_blank">NeurIPS</a>,
+              <a href="https://openreview.net/forum?id=8wbnpOJY-f" target="_blank">ICLR</a>,
+              <a href="https://ieeexplore.ieee.org/abstract/document/9782552" target="_blank">IEEE T-PAMI</a>,
+              <a href="https://ieeexplore.ieee.org/abstract/document/9608947" target="_blank">IEEE T-NNLS</a>,
+              <a href="https://www.sciencedirect.com/science/article/pii/S0167865522003920" target="_blank">Pattern Recognition Letters</a>,
+              <a href="https://ieeexplore.ieee.org/document/10096892" target="_blank">ICASSP</a>,
+              <a href="https://arxiv.org/pdf/2310.14227.pdf" target="_blank">arXiv:2310.14227</a>,
+              <a href="https://arxiv.org/pdf/2211.10882.pd" target="_blank">arXiv:2211.10882</a>] 
+           </p>
+
+          
+            <!--News-->
+            <h3 id="news">
+              Updates
+            </h3>
+            <ul class="partial-visible news-list">
+              <!-- <li><span>[03/2023] Invited talk at <b>Mayo Clinic</b>.</li> -->
+              <li><span>[11/2023] I co-organized the Workshop: Rethinking Transformers through Duality and New Directions at <a href="https://ai.kuleuven.be/events/leuven-ai-junior-researcher-day-2023/" target="_blank">Leuven.AI junior researchers day.</a></li>
+              <li><span>[11/2023] Our paper <a href="https://arxiv.org/pdf/2302.11220.pdf" target="_blank">"Deep Kernel Principal Component Analysis for Multi-level Feature Learning"</a> has been accepted to Neural Networks.</li>
+              <li><span>[10/2023] Our paper <a href="https://arxiv.org/pdf/2310.14227.pdf" target="_blank">"Revisiting Deep Ensemble for Out-of-Distribution Detection: A Loss Landscape Perspective"</a>  is now on arXiv.</li>
+              <li><span>[09/2023] Our paper <a href="https://arxiv.org/pdf/2305.19798.pdf" target="_blank">"Primal-Attention: Self-attention through Asymmetric Kernel SVD in Primal Representation"</a> has been accepted to NeurIPS.</li>
+              <li><span>[09/2023] Our paper <a href="https://openreview.net/pdf?id=VcuScWOJfl" target="_blank">"Revisiting Random Weight Perturbation for Efficiently Improving Generalization"</a> has been accepted to NeurIPS Workshops on Optimization for Machine Learning.</li>
+              <li><span>[09/2023] Our paper <a href="https://arxiv.org/pdf/2308.16056.pdf" target="_blank">"Low-Rank Multitask Learning based on Tensorized SVMs and LSSVMs"</a> is now on arXiv, and it was partially published at <a href="https://arxiv.org/pdf/2303.02451.pdf" target="_blank">"for regression tasks with tensorized LSSVMs"</a>, <a href="https://signalprocessingsociety.org/blog/icassp-2023-2023-ieee-international-conference-acoustics-speech-and-signal-processing#:~:text=Conferences-,(ICASSP%202023)%202023%20IEEE%20International%20Conference%20on%20Acoustics%2C%20Speech,Location%3A%20Rhodes%20Island%2C%20Greece" target="_blank">in ICASSP</a>, in Rohdes Island, Greece, June 2023.</li>
+              <li><span>[06/2023] Our papers <a href="https://arxiv.org/pdf/2306.07040.pdf" target="_blank">"Nonlinear SVD with Asymmetric Kernels: Feature Learning and Asymmetric Nyström Method"</a> and <a href="https://arxiv.org/pdf/2305.19798.pdf" target="_blank">"Primal-Attention: Self-attention through Asymmetric Kernel SVD in Primal Representation"</a> are now on arXiv.</li>
+              <li><span>[03/2023] Our paper <a href="https://ieeexplore.ieee.org/abstract/document/10070787" target="_blank">"Query Attack by Multi-Identity Surrogates"</a> has been published at IEEE Transactions on AI.</li>
+              <li><span>[02/2023] Our paper <a href="https://www.sciencedirect.com/science/article/pii/S0167865522003920" target="_blank">"Jigsaw-ViT: Learning jigsaw puzzles in vision transformer"</a> has been published on Pattern Recognition Letters.</li>
+              <li><span>[02/2023] Our paper <a href="https://openreview.net/forum?id=8wbnpOJY-f" target="_blank">"Trainable Weight Averaging: Efficient Training by Optimizing Historical Solutions"</a> has been published on ICLR.</li>
+              <li><span>[11/2022] Our paper <a href="https://arxiv.org/pdf/2211.10882.pdf">"On Multi-head Ensemble of Smoothed Classifiers for Certified Robustness"</a>  is now on arXiv.</li>
+              <!-- <li><span>[09/2022] Our paper <a href="....">"..."</a>  is ....v.</li> -->
+              <li><span>[09/2022] Our paper <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/5fa29a2f163ce2020769eca8956e2d77-Paper-Conference.pdf">"Adversarial Attack on Attackers: Post-Process to Mitigate Black-Box Score-Based Query Attacks"</a>  has been accepted to NeurIPS.</li> 
+              <li><span>[06/2022] Our paper <a href="https://arxiv.org/pdf/2207.11559.pdf" target="_blank">"Tensor-based Multi-view Spectral Clustering via Shared Latent Space"</a> is now on arXiv.</li>
+              <li><span>[06/2022] Our paper <a href="https://www.nature.com/articles/s43586-022-00125-7" target="_blank">"Piecewise Linear Neural Networks and Deep Learning"</a> has been published on Nature Reviews Methods Primers</li>
+              <li><span>[05/2022] Our paper <a href="https://ieeexplore.ieee.org/abstract/document/9782552" target="_blank">"Low Dimensional Trajectory Hypothesis is True: DNNs Can Be Trained in Tiny Subspaces"</a> has been published on IEEE TPAMI.</li>
+              <li><span>[04/2022] Our papers <a href="https://ieeexplore.ieee.org/document/10096892" target="_blank">"Measuring the Transferability of l-inf Attacks by the l-2 Norm"</a> and <a href="https://ieeexplore.ieee.org/document/10094580" target="_blank">"Tensorized LSSVMS For Multitask Regression"</a>  have been accepted to ICASSP.</li>
+              <li><span>[01/2022] Our paper <a href="https://ieeexplore.ieee.org/abstract/document/9698141" target="_blank">"Short-term Traffic Flow Prediction based on the Efficient Hinging Hyperplanes Neural Network"</a> has been published on IEEE Transactions on ITS.</li>
+              <li><span>[11/2021] Our paper <a href="https://ieeexplore.ieee.org/abstract/document/9444112" target="_blank">"Toward Deep Adaptive Hinging Hyperplanes"</a>  have been published on IEEE TNNLS.</li>
+              <li><span>[06/2021] Our paper <a href="https://ieeexplore.ieee.org/abstract/document/9608947" target="_blank">"Center-Aware Adversarial Autoencoder for Anomaly Detection"</a> have been published on IEEE TNNLS.</li>
+              <li><span>[05/2021] Our paper <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417420309404" target="_blank">"Learning with Continuous Piecewise Linear Decision Trees"</a> has been published on Expert Systems with Applications.</li>
+              <li><span>[11/2020] Our paper <a href="https://arxiv.org/abs/2010.12190" target="_blank">"Towards Robust Neural Networks via Orthogonal Diversity"</a>  is now on arXiv.</li> 
+              <li><span>[06/2020] Our paper <a href="https://arxiv.org/pdf/2211.10882.pdf" target="_blank">"Efficient Hinging Hyperplanes Neural Network and its application in Nonlinear System Identification"</a>  have been published on Automatica.</li>
+              </ul>
+
+
+            <!--Selected Publications-->
+            <h3 id="publications">Selected Work <span style="font-size: 1rem;margin-left: 1rem;position: relative;bottom: .1rem;"><a href="https://scholar.google.com/citations?user=_dZHZD8AAAAJ&hl=en" target="_blank">[Full List]</a></span></h3> 
+           
+
+
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image" style="width: 14rem;max-width: 100%;">
+                  <img src="images/publications/pwl.png">
+                </figure>
+                <figure class="image" style="width: 8.8rem;max-width: 100%;">
+                  <img src="images/publications/hh.png">
+                </figure>
+                <figure class="image" style="width: 8.8rem;max-width: 100%;">
+                  <img src="images/publications/pwl_func.png">
+                </figure>
+                <figure class="image" style="width: 8.8rem;max-width: 100%;">
+                  <img src="images/publications/pwl_domain.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                  <em class="pink"><i><b>(Piecewise Linear Neural Networks)</b></i></em><br>
+                  <b> Piecewise Linear Neural Networks and Deep Learning</b><br>
+                    <b>Qinghua Tao</b>, Li Li, Xiaolin Huang, Xiangming Xi, Shuning Wang, and Johan AK Suykens<br>
+                    <i>Nature Reviews Methods Primers  (2022), 5-year Impact Factor - 39.8</i><a href="https://www.nature.com/articles/s43586-022-00125-7" target="_blank"> [NRMP Version]</a> <a href="papers/paper_2022_neurips_TS4H.pdf" target="_blank">[ArXiv Version]</a><br>
+                    <!-- <p style="margin:2px;"> aaa</p> -->
+                    <b>Short-term Traffic Flow Prediction based on the Efficient Hinging Hyperplanes Neural Network"</a></b><br>
+                    <b>Qinghua Tao</b>, Zhen Li, Jun Xu, Shu Lin, Bart De Schutter, and Johan AK Suykens <br>
+                    <i>IEEE Transactions on Intelligent Transportation Systems (2022)</i>  <a href="https://ieeexplore.ieee.org/abstract/document/9698141?casa_token=6fShmOFCkD0AAAAA:Z5-rhCdXLoAxpUav340yvO0slrYXCUUSvXuHE85gn21Y_hcTNhXFU82bIJY5G5jMjSEK2GyA68s" target="_blank">[Paper]</a><br>
+                    <b>Toward Deep Adaptive Hinging Hyperplanes</b><br>
+                    <b>Qinghua Tao</b>, Jun Xu, Zhen Li, Na Xie, Shuning Wang, Xiaoli Li, and Johan AK Suykens <br>
+                    <i>IEEE Transactions on Neural Networks and Learning Systems(2021)</i>  <a href="https://ieeexplore.ieee.org/abstract/document/9444112?casa_token=IT6chOesHuwAAAAA:hEH7G6ZV85_W7Z7ikEduXahPnkPiW27RKAxxr7eBGZurknZ269rUeSUGdHHn74RHPkyqkPCWIkM" target="_blank">[Paper]</a><br>
+                    <b>Learning with Continuous Piecewise Linear Decision Trees</b><br>
+                    <b>Qinghua Tao</b> Zhen Li, Jun Xu, Na Xie, Shuning Wang, and Johan AK Suykens <br>
+                    <i>Expert Systems with Applications (2021)</i>  <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417420309404" target="_blank">[Paper]</a><br>
+                    <b>Efficient Hinging Hyperplanes Neural Network and its application in Nonlinear System Identification</b><br>
+                    Jun Xu, <b>Qinghua Tao</b>, Zhen Li, Xiangming Xi, Johan AK Suykens, and Shuning Wang <br>
+                    <i>Automatica (2020)</i>  <a href="https://www.sciencedirect.com/science/article/abs/pii/S0005109820301047" target="_blank">[Paper]</a><br>
+                    <b>Fast Adaptive Hinging Hyperplanes</b><br>
+                    <b>Qinghua Tao</b>,  Jun Xu, Johan AK Suykens, and Shuning Wang<br>
+                    <i>IEEE CDC (2018)</i><a href="https://ieeexplore.ieee.org/abstract/document/8619653" target="_blank">[Paper]</a><br>
+                    <b>Adaptive block coordinate DIRECT algorithm</b><br>
+                    <b>Qinghua Tao</b>, Xiaolin Huang, Shuning Wang, and Li Li<br>
+                    <i>Journal of Global Optimization (2017)</i><a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168416300032" target="_blank">[Paper]</a><br>
+                    <b>Multiple Gaussian Graphical Estimation with Jointly Sparse Penalty</b><br>
+                    <b>Qinghua Tao</b>, Xiaolin Huang, Shuning Wang, Xiangming Xi, and Li Li<br>
+                    <i>Signal Processing (2016)</i><a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168416300032" target="_blank">[Paper]</a><br>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <br>
+            <br>
+
+            <article class="columns">
+              <div class="column is-3">
+                <!-- <figure class="image" style="width: 9.5rem;max-width: 100%;">
+                  <img src="images/publications/ksvd_1.png">
+                </figure> -->
+                <figure class="image" style="width: 13rem;max-width: 100%;">
+                  <img src="images/publications/ksvd_2.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <em class="pink"><i><b>(Asymmetric Kernel SVD and Self-Attention Kernel in Transformers)</b></i></em><br>
+                  <p>
+                    <b>Nonlinear SVD with Asymmetric Kernels: Feature Learning and Asymmetric Nyström Method</b><br>
+                    <b>Qinghua Tao*</b>, Francesco Tonin*, Yingyi Chen, Panagiotis Patrinos, and Johan AK Suykens<br>
+                   (* equal contribution)<br>
+                    <i>arXiv:2306.07040 (2023)</i><a href="https://arxiv.org/pdf/2306.07040.pdf" target="_blank">[Paper]</a><br> 
+                    <b> Primal-Attention: Self-attention through Asymmetric Kernel SVD in Primal Representation</b><br>
+                    Yingyi Chen*, <b>Qinghua Tao*</b>, Francesco Tonin, and Johan AK Suykens<br>
+                    (* equal contribution)<br>
+                     <i>NeurIPS (2023)</i><a href="https://arxiv.org/pdf/2305.19798.pdf" target="_blank">[Paper]</a><br>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+
+            <br>
+            <br>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image" style="width: 12.5rem;max-width: 100%;">
+                  <img src="images/publications/dkpca1.png">
+                </figure>
+                <figure class="image" style="width: 9rem;max-width: 100%;">
+                  <img src="images/publications/mvksc.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <em class="pink"><i><b>(Deep Kernel Machines and Tensorized Kernel Machines)</b></i></em><br>
+                  <p>
+                    <b>Deep Kernel Principal Component Analysis for Multi-level Feature Learning</b><br>
+                    Francesco Tonin <i class="email"></i>, <b>Qinghua Tao</b> <i class="email"></i>,  Panagiotis Patrinos, and Johan AK Suykens<br>
+                    (<i class="email"></i> corresponding authors)<br>
+                     <!-- <a href="mailto:francesco.tonin@esat.kuleuven.be">francesco.tonin@esat.kuleuven.be</a>; <a href="mailto:qinghua.tao@esat.kuleuven.be">qinghua.tao@esat.kuleuven.be</a> -->
+                    <i>Neural Networks (2023)</i> <a href="https://arxiv.org/pdf/2302.11220.pdf" target="_blank">[Paper]</a> <br>
+                    <b>Tensor-based Multi-view Spectral Clustering via Shared Latent Space</b><br>
+                    <b>Qinghua Tao</b>, Francesco Tonin, Panagiotis Patrinos, and Johan AK Suykens<br>
+                    <i>arXiv:2207.11559 (2022)</i>  <a href="https://arxiv.org/pdf/2207.11559.pdf" target="_blank">[Paper]</a><br>
+                    <b>Low-Rank Multitask Learning based on Tensorized SVMs and LSSVMs</b><br>
+                    Jiani Liu,  <b>Qinghua Tao</b>, Ce Zhu, Yipeng Liu, Xiaolin Huang, and Johan AK Suykens<br>
+                    <i>arXiv: 2308.16056 (2023)</i> <a href="https://arxiv.org/pdf/2308.16056.pdf" target="_blank">[Paper]</a> <br>
+                    <b>Tensorized LSSVMs for Multitask Regression</b><br>
+                    Jiani Liu,  <b>Qinghua Tao</b>, Ce Zhu, Yipeng Liu, and Johan AK Suykens<br>
+                    <i>ICASSP (2023)</i> <a href="https://ieeexplore.ieee.org/abstract/document/10094580" target="_blank">[Paper]</a><br>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+
+
+            <br>
+            <br>
+   
+
+
+            
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image" style="width: 8rem;max-width: 100%;">
+                  <img src="images/publications/dldr.png">
+                </figure>
+                <figure class="image" style="width: 8.5rem;max-width: 100%;">
+                  <img src="images/publications/twa.png">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <em class="pink"><i><b>(Optimization on DNNs via Low-dimensional Subspaces)</b></i></em><br>
+                  <p>
+                    <b>Revisiting Random Weight Perturbation for Efficiently Improving Generalization</b><br>
+                    Tao Li, Weihao Yan, <b>Qinghua Tao</b>, Zehao Lei, Yingwen Wu, Kun Fang, Mingzhen He, Xiaolin Huang<br>
+                    <i>NeurIPS Workshops on Optimization for Machine Learning (2023)</i><a href="https://openreview.net/pdf?id=VcuScWOJfl" target="_blank">[Paper]</a><br>
+                    <b>Revisiting Random Weight Perturbation for Efficiently Improving Generalization</b><br>
+                    Tao Li, Zhehao Huang, <b>Qinghua Tao</b>, Yingwen Wu, and Xiaolin Huang<br>
+                    <i>NeurIPS Workshops on Optimization for Machine Learning (2023)</i> <a href="https://openreview.net/forum?id=8wbnpOJY-f" target="_blank">[Paper]</a><br>
+                    <b>Low Dimensional Trajectory Hypothesis is True: DNNs Can Be Trained in Tiny Subspaces</b><br>
+                    Tao Li, Weihao Yan, <b>Qinghua Tao</b>, Zehao Lei, Yingwen Wu, Kun Fang, Mingzhen He, Xiaolin Huang<br>
+                    <i>IEEE Transactions on Pattern Analysis and Machine Intelligence (2022)</i><a href="https://ieeexplore.ieee.org/abstract/document/9782552" target="_blank">[Paper]</a><br> 
+                  </p>
+                </div>
+              </div>
+            </article>
+            
+            <br>
+            <br>
+
+            <article class="columns">
+              <div class="column is-3">
+                <figure class="image" style="width: 14rem;max-width: 100%;">
+                  <img src="images/publications/l_inf_l2.png">
+                </figure>
+                <figure class="image" style="width: 15rem;max-width: 100%;">
+                  <img src="images/publications/specta.png">
+                </figure>
+                <figure class="image" style="width: 15rem;max-width: 100%;">
+                  <img src="images/publications/jigsaw.jpg">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <em class="pink"><i><b>(Robustness for DNNs)</b></i></em><br>
+                  <p>
+                    <b>Measuring the Transferability of l-inf Attacks by the l-2 Norm</b><br>
+                    Chen, Sizhe, <b>Qinghua Tao</b> , Zhixing Ye, and Xiaolin Huang<br>
+                    <i>ICASSP (2023)</i> <a href="https://ieeexplore.ieee.org/document/10096892" target="_blank">[Paper]</a><br>
+                    <b>Center-Aware Adversarial Autoencoder for Anomaly Detection</b><br>
+                    Daoming Li*, <b>Qinghua Tao*</b>, Jiahao Liu, and Huangang Wang <br>
+                    (* equal contribution)<br>
+                    <i>IEEE Transactions on Neural Networks and Learning Systems (2021)</i> <a href="https://ieeexplore.ieee.org/abstract/document/9608947" target="_blank">[Paper]</a><br>
+                    <b>Query Attack by Multi-Identity Surrogates</b><br>
+                      Sizhe Chen, Zhehao Huang, <b>Qinghua Tao</b>, and Xiaolin Huang<br>
+                    <i>IEEE Transactions on Artificial Intelligence (2023)</i> <a href="https://ieeexplore.ieee.org/abstract/document/10070787" target="_blank">[Paper]</a><br>
+                    <b>Jigsaw-ViT: Learning jigsaw puzzles in Vision Transformer</b><br>
+                    Yingyi Chen, Xi Shen, Yahui Liu, <b>Qinghua Tao</b>, and Johan AK Suykens.<br>
+                    <i>Pattern Recognition Letters (2023)</i> <a href="https://www.sciencedirect.com/science/article/pii/S0167865522003920" target="_blank">[Paper]</a><br>
+                    <b>Adversarial Attack on Attackers: Post-Process to Mitigate Black-Box Score-Based Query Attacks</b><br>
+                    Sizhe Chen, Zhehao Huang, <b>Qinghua Tao</b> , Yingwen Wu, Cihang Xie, and Xiaolin Huang<br>
+                    <i>NeurIPS (2022)</i> <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/5fa29a2f163ce2020769eca8956e2d77-Paper-Conference.pdf" target="_blank">[Paper]</a><br>
+                    <b>Revisiting Deep Ensemble for Out-of-Distribution Detection: A Loss Landscape Perspective</b><br>
+                    Kun Fang, <b>Qinghua Tao</b>, Xiaolin Huang, and Jie Yang<br>
+                    <i>arXiv:2310.14227 (2023)</i> <a href="https://arxiv.org/pdf/2310.14227.pdf" target="_blank">[Paper]</a><br>
+                    <b>On Multi-head Ensemble of Smoothed Classifiers for Certified Robustness</b><br>
+                    Kun Fang, <b>Qinghua Tao</b>, Yingwen Wu, Tao Li, Xiaolin Huang, and Jie Yang<br>
+                    <i>arXiv:2211.10882 (2022)</i> <a href="https://arxiv.org/pdf/2211.10882.pdf" target="_blank">[Paper]</a><br>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+
+
+            <!-- <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/orthogonality.jpg">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Towards Robust Neural Networks via Orthogonal Diversity</b><br>
+                    Kun Fang, <b>Qinghua Tao</b>, Yingwen Wu, Tao Li, Jia Cai, Feipeng Cai, Xiaolin Huang, and Jie Yang<br>
+                    <i>arXiv:2010.12190 (2022)</i> <a href="https://arxiv.org/pdf/2010.12190.pdf" target="_blank">[Paper]</a><br>
+                  </p>
+                </div>
+              </div>
+            </article>
+ -->
+
+
+
+            
+            
+
+            <!-- <article class="columns">
+              <div class="column is-3">
+                <figure class="image">
+                  <img src="images/publications/old_paper.jpg">
+                </figure>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p>
+                    <b>Fast Adaptive Hinging Hyperplanes</b><br>
+                    <b>Qinghua Tao</b>,  Jun Xu, Johan AK Suykens, and Shuning Wang<br>
+                    <i>IEEE CDC (2018)</i><a href="https://ieeexplore.ieee.org/abstract/document/8619653" target="_blank">[Paper]</a><br>
+                    <b>Adaptive block coordinate DIRECT algorithm</b><br>
+                    <b>Qinghua Tao</b>, Xiaolin Huang, Shuning Wang, and Li Li<br>
+                    <i>Journal of Global Optimization (2017)</i><a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168416300032" target="_blank">[Paper]</a><br>
+                    <b>Multiple Gaussian Graphical Estimation with Jointly Sparse Penalty</b><br>
+                    <b>Qinghua Tao</b>, Xiaolin Huang, Shuning Wang, Xiangming Xi, and Li Li<br>
+                    <i>Signal Processing (2016)</i><a href="https://www.sciencedirect.com/science/article/abs/pii/S0165168416300032" target="_blank">[Paper]</a><br>
+                  </p>
+                </div>
+              </div>
+            </article> -->
+
+
+           
+
+
+
+
+
+        
+            <h3 id="miscellaneous">
+              Selected Honors and Awards
+            </h3>
+            <ul>
+              <!-- <li>Rising Stars in AI Symposium 2023 at KAUST, 2023. (Being selected to give a talk, but unable to attend in person due to visa issues)</li> -->
+              <!-- <li>2022 Top Ten Notable Advances in Medicine, Nature Medicine, 2022. <a href="https://www.nature.com/articles/s41591-022-02146-x" target="_blank">[<b>Link</b>]</a></li> -->
+              <!-- <li>Ali Star, Alibaba Group, 2019.</li> -->
+              <!-- <li>Research Travel Grant, CMU, ICCV 2017.</li> -->
+              <!-- <li>Overseas Research Award for conducting research at Carnegie Mellon University, HKUST, 2016.</li> -->
+              <li>Comprehensive Scholarship of Tsinghua University for graduates, 2016,2018 .</li>
+              <li>Student Research Travel Grant, IEEE CDC, 2018.</li>
+              <li>Meritorious Winner, Mathematical Contest in Modeling of America (MCM), 2013.</li>
+              <li>National Scholarship for Undergraduates (top 0.2%, highest honor), Ministry of Education of P.R.China, 2011, 2013.</li>
+              <li>The 2nd prize of National College English Contest 2013; the 3rd  place in English Speaking contest  of Central South University 2012;  the 3rd place in English Oratorical Contest of Central South University 2012.</li>
+              <!-- <li>Merit Scholarship (top 0.05%, <em class="red">highest</em> honor), HUST, 2011</li>
+              <li>First-Class Scholarship (top 5%), HUST, 2009, 2010, 2011</li> -->
+            </ul>
+
+
+
+            <h3 >
+              Academic Services and Experiences
+            </h3>
+            <ul>
+              <li><b>Conference Reviewer</b></li>
+              ICML, NeurIPS, ICLR, ICASSP, CDC, ACC.<br>
+
+              <li><b>Journal Reviewer</b></li>
+              IEEE Transactions on Image Processing, IEEE Transactions on Circuits and Systems for Video Technology, IEEE Transactions on Neural Networks and Learning Systems,
+              IEEE Signal Processing Letters, IEEE Transactions on Automation Science and Engineering, Information Fusion,
+              Machine Learning, Neural Networks, Pattern Recognition Letters.<br>
+
+              <li><b>Master Thesis</b></li>
+              Assess 10+ master theses from the master programs of AI, Mathematical Engineering, and Statistics
+                and Data Science, in KU Leuven.<br>
+              Supervise the master student with thesis "<i> Multi-view spectral clustering for unsupervised object discovery via Transformer</i>"  from Master AI program in KU Leuven.<br>
+
+              <li><b>Teaching</b></li>
+              TA of <i>Convex Optimization</i>, Tsinghua University --
+              A specialized  course to graduate students (Course #70250403 with textbook S. Boyd and L. Vandenberghe, Convex Optimization. Cambridge, UK, Cambridge University Press, 2004)<br>
+              TA of  <i>Operational Research</i>, Tsinghua University -- A specialized  course to undergraduate students (Course #20250013 with textbook
+                Yunquan Hu, Operations research tutorial. Beijing, China, Tsinghua University Press, 2003).<br>
+              
+            </ul>
+
+
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container">
+      <br><hr>
+      <div class="row" style="text-align: center">
+        © 2023 Qinghua Tao. Last updated: November 27, 2023.
+      </div>
+    </footer>
+  </section>
+
+
+  <script>
+
+    var $hashList = $('.menu-list a'), offsetList, maxScrollHeight;
+
+    $('#sidebar').on('click', 'a', function(){
+      activate($(this))
+    });
+    
+    $(window).on('resize', debounce(calculateBoundary, 300));
+
+    $(document).on('scroll', debounce(judgeScroll, 300));
+
+    calculateBoundary();
+    judgeScroll();
+    
+    function  calculateBoundary() {
+      offsetList = $hashList.map(function(idx, ele){
+        return $(ele.hash).offset().top
+      });
+      maxScrollHeight = $(document).height() - $(window).height()
+    }
+    
+    function judgeScroll() {
+      var tps = $("html").scrollTop()
+              ? $("html").scrollTop()
+              : $("body").scrollTop(),
+              len = offsetList.length;
+      if(tps >= maxScrollHeight-10){
+        activate($hashList.eq(len-1));
+        return
+      }
+      for(var i=0; i<len; i++){
+       if(tps+50<offsetList[i]){
+          activate($hashList.eq(Math.max(0,i-1)));
+          return
+        }
+      }
+    }
+
+    function activate(ele){
+      $hashList.removeClass('is-active');
+      ele.addClass('is-active');
+    }
+
+    function debounce(fn, delay) {
+      var timeout = null;
+      return function () {
+        var args = arguments;
+        var context = this;
+        if (!timeout) {
+          timeout = setTimeout(function () {
+            timeout = 0;
+            return fn.apply(context, args);
+          }, delay);
+        }
+      };
+    }
+
+    var $showMoreBtn = $('.show-more');
+    $showMoreBtn.click(function(){
+      var $parent = $showMoreBtn.parent();
+      if($parent.hasClass('partial-visible')){
+        $showMoreBtn.text('hide').parent().removeClass('partial-visible');
+      }else{
+        $showMoreBtn.text('show more').parent().addClass('partial-visible');
+      }
+    })
+
+    var psbCount = 3;
+    $('#avatar').attr('src', './images/pic'+(1+(Math.random()*100>>0)%psbCount)+'.png')
+
+
+
+  </script>
+
+
+</body>
+
+</html>
