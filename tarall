@@ -321,7 +321,7 @@
                   <em class="pink"><i><b>(Asymmetric Kernel SVD and Self-Attention Kernel in Transformers)</b></i></em><br>
                   <p>
                     <b>Learning in Feature Spaces via Coupled Covariances: Asymmetric Kernel SVD and Nyström method</b><br>
-                    <b>Qinghua Tao*</b>,<a href="hhttps://taralloc.github.io/index.html" target="_blank">Francesco Tonin</a>*, <a href="https://allambert.github.io/" target="_blank">Alex Lambert</a>, <a href="https://yingyichen-cyy.github.io/" target="_blank">Yingyi Chen</a>, <a href="https://scholar.google.com/citations?user=Qiwt2t8AAAAJ&hl=en" target="_blank">Panagiotis Patrinos</a>, and Johan AK Suykens<br>
+                    <b>Qinghua Tao*</b>,<a href="https://taralloc.github.io" target="_blank">Francesco Tonin</a>*, <a href="https://allambert.github.io/" target="_blank">Alex Lambert</a>, <a href="https://yingyichen-cyy.github.io/" target="_blank">Yingyi Chen</a>, <a href="https://scholar.google.com/citations?user=Qiwt2t8AAAAJ&hl=en" target="_blank">Panagiotis Patrinos</a>, and Johan AK Suykens<br>
                     <i>ICML (2024)</i><br> 
                     <b> Primal-Attention: Self-attention through Asymmetric Kernel SVD in Primal Representation</b><br>
                     Yingyi Chen*, <b>Qinghua Tao*</b>, Francesco Tonin, and Johan AK Suykens<br>
